@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    height: 270px;
+    width: 200px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: .825rem;
+    margin-top: 1rem;
+}
+
+.input-field {
+    margin-top: .3rem;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid #bdbdbd;
+    height: auto;
+    transition: .3s;
+}
+
+.input-field:focus {
+    border: 1px solid red;
+}
+
+.button-validation {
+    margin-top: 1rem;
+    height: 40px;
+    width: 170px;
+    background-color: #1E90FF;
+    border: none;
+    border-radius: 0.5rem;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    border: 1px solid #FFF;
+}
+
+.button-validation:hover {
+    margin-top: 1rem;
+    height: 50px;
+    width: 170px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 0.5rem;
+    color: #1E90FF;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #1E90FF;
+}

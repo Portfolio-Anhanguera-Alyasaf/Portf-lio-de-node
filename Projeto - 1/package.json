@@ -1,0 +1,13 @@
+{
+  "name": "projeto---1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

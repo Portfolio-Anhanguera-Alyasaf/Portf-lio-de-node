@@ -1,0 +1,17 @@
+{
+  "name": "projeto---2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "math.js",
+  "scripts": {
+    "start": "node math.js",
+    "test": "mocha math.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
